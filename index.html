@@ -9,11 +9,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  
-  <hedear class="hedear">
+
+  <hedear class="header">
     <div class="container">
       <div class="header-top">
         <div class="logo">
@@ -42,8 +43,62 @@
       </div>
     </div>
   </hedear>
+  
+  <section class="slider-top">
+    <div class="slider">
+      <div class="slider__item" style="background-image: url(images/slide-1.jpg);"></div>
+      <div class="slider__item" style="background-image: url(images/slide-2.jpg);"></div>
+      <div class="slider__item" style="background-image: url(images/slide-3.jpg);"></div>
+    </div>
+  </section>
+  <section class="statistics">
+    <div class="container">
+      <div class="statistics-items">
+        <div class="statistics-item">
+          <div class="statistics-item__title">
+            Двигатель
+          </div>
+          <div class="statistics-item__num">
+            2,1 <span>сек</span>
+          </div>
+          <div class="statistics-item__descr">
+            разгон до 100 км
+          </div>
+        </div>
+        <div class="statistics-item">
+          <div class="statistics-item__title">
+          Батарея
+          </div>
+          <div class="statistics-item__num">
+            1000 <span>км</span>
+          </div>
+          <div class="statistics-item__descr">
+            запас хода
+          </div>
+        </div>
+        <div class="statistics-item">
+          <div class="statistics-item__title">
+          Скорость
+          </div>
+          <div class="statistics-item__num statistics-item__num--speed">
+            400 <span>км/ч</span>
+          </div>
+          <div class="statistics-item__descr">
+            макс скорость
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
